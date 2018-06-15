@@ -353,6 +353,10 @@ if is_substring("J530GM", getprop("ro.boot.bootloader")) then
         ui_print("-- Flashing stock J530GM kernel image");
         package_extract_file("kernel/J530FM.img", "/dev/block/platform/13540000.dwmmc0/by-name/BOOT");	
 endif;
+#--DEBLOAT
+#delete_recursive("/system/priv-app/Velvet/Velvet.apk");
+#delete_recursive("/system/priv-app/SamsungMembers/SamsungMembers.apk");
+#delete_recursive("/system/app/QuickConnect/QuickConnect.apk");
 #--CUSTOM SCRIPTS
 ui_print("-- Installing Magisk V16.4");
 package_extract_dir("magisk", "/tmp/magisk");
