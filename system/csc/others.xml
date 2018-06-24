@@ -78,5 +78,6 @@
 	<CscFeature_Setting_DataRoamingOption>national</CscFeature_Setting_DataRoamingOption>
     <CscFeature_Setting_EnableDataRoamingButtonInQuickPanel>TRUE</CscFeature_Setting_EnableDataRoamingButtonInQuickPanel>
     <CscFeature_Setting_EnableDataRoamingMenuInDetail>TRUE</CscFeature_Setting_EnableDataRoamingMenuInDetail>
+    <CscFeature_SmartManager_ConfigSubFeatures>roguepopup|autoclean|autolaunch|autorestart|networkpowersaving|storageclean|backgroundapp|applock|trafficmanager|trafficmanager_auto|notificationmanager|devicesecurity|applicationpermission|chinadualpage|data_compression|cstyle|fake_base_station|appcleanner</CscFeature_SmartManager_ConfigSubFeatures>
   </FeatureSet>
 </SamsungMobileFeature>
